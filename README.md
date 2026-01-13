@@ -10,7 +10,7 @@ This repository documents a 10-part project focused on deploying and managing a 
 - DNS, Group Policy, Windows Clients
 
 ## Project Structure
-1. [Part 1 – Infrastructure & Windows Server Deployment](docs/part-1-infrastructure.md)
+1. [Part 1 – Infrastructure & Windows Server Deployment](docs/part-1-infrastructure-and-windows-server-deployment.md)
 2. [Part 2 – Active Directory Domain Services Deployment](docs/part-2-active-directory.md)
 3. Part 3 – Users and Groups
 4. Part 4 – Organizational Units
