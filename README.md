@@ -1,7 +1,16 @@
-# Active Directory Homelab on Unraid
+# Windows 22 Homelab on Unraid
 
 ## Overview
 This repository documents a 10-part project focused on deploying and managing a Windows Active Directory environment in a virtualized Unraid homelab.
+
+## Objective
+- Patch Managment
+- Active Directory
+- Server 22
+- Windows 11
+- NTFS
+- Join a machine Domain
+- MFM
 
 ## Technologies Used
 - Unraid (KVM)
