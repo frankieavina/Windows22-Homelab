@@ -1,24 +1,24 @@
-# Windows 22 Homelab on Unraid Server
+# Active Directory Homelab on Unraid
 
 ## Overview
-This project documents the deployment of a Windows Server 2022 virtual machine running Active Directory Domain Services (AD DS) within an Unraid-based homelab environment.
+This repository documents a 10-part project focused on deploying and managing a Windows Active Directory environment in a virtualized Unraid homelab.
 
-The goal of this project is to gain hands-on experience with:
-- Windows Server administration
-- Active Directory fundamentals
-- Virtualization using Unraid
-- Identity, authentication, and domain management concepts
+## Technologies Used
+- Unraid (KVM)
+- Windows Server 2022
+- Active Directory Domain Services
+- DNS, Group Policy, Windows Clients
 
-This repository is structured as a technical paper and lab documentation suitable for professional review.
+## Project Structure
+1. [Part 1 – Infrastructure & Windows Server Deployment](docs/part-1-infrastructure.md)
+2. [Part 2 – Active Directory Domain Services Deployment](docs/part-2-active-directory.md)
+3. Part 3 – Users and Groups
+4. Part 4 – Organizational Units
+5. Part 5 – Group Policy Objects
+6. Part 6 – DNS Integration
+7. Part 7 – Domain-Joined Client Machines
+8. Part 8 – Security Hardening
+9. Part 9 – Backup and Recovery
+10. Part 10 – Monitoring and Maintenance
 
-## Lab Objectives
-- Deploy Windows Server 2022 as a VM on Unraid
-- Promote the server to a Domain Controller
-- Configure Active Directory Domain Services
-- Create and manage users, groups, and organizational units
-- Lay groundwork for future Group Policy and DNS configuration
-
-## Environment
-- Host OS: Unraid
-- Hypervisor: KVM (via Unraid)
-- Guest OS: Windows Server 2022
+  
