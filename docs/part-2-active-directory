@@ -1,0 +1,86 @@
+# Part 2 – Active Directory Domain Services Deployment
+
+## Introduction
+This part of the project focuses on deploying Active Directory Domain Services (AD DS) on the Windows Server 2022 virtual machine created in Part 1. Active Directory is a core component of Windows-based enterprise environments and provides centralized authentication, authorization, and identity management.
+
+In this phase, the server is promoted to a Domain Controller by creating a new forest and domain. This establishes the foundation for user management, group policies, DNS integration, and domain-joined client systems in later parts of the project.
+
+---
+
+## Objectives
+The objectives of this phase are:
+- Install the Active Directory Domain Services role
+- Promote the server to a Domain Controller
+- Create a new Active Directory forest and domain
+- Verify successful deployment and functionality
+
+---
+
+## Installing Active Directory Domain Services
+The Active Directory Domain Services role was installed using Server Manager.
+
+### Installation Steps
+1. Opened **Server Manager**
+2. Selected **Add Roles and Features**
+3. Chose **Role-based or feature-based installation**
+4. Selected the local server
+5. Installed **Active Directory Domain Services**
+6. Allowed required features to be added automatically
+7. Completed role installation
+
+At this stage, the server was prepared for promotion to a Domain Controller.
+
+---
+
+## Domain and Forest Configuration
+After installing the AD DS role, the server was promoted to a Domain Controller.
+
+### Domain Configuration Details
+- Deployment Type: New forest
+- Domain Name: `homelab.local`
+- Domain Functional Level: Windows Server 2022
+- Forest Functional Level: Windows Server 2022
+
+A Directory Services Restore Mode (DSRM) password was configured to allow offline maintenance and recovery scenarios.
+
+---
+
+## omain Controller Promotion
+The Active Directory configuration wizard was used to complete the promotion process.
+
+### Promotion Steps
+- Enabled DNS Server role installation
+- Verified NetBIOS name assignment
+- Accepted default database, log, and SYSVOL paths
+- Completed prerequisite checks
+- Initiated Domain Controller promotion
+
+The system automatically rebooted upon completion.
+
+---
+
+## Post-Deployment Verification
+After reboot, multiple validation steps were performed to confirm successful deployment.
+
+### Verification Tasks
+- Logged in using domain administrator credentials
+- Verified **Active Directory Users and Computers** console access
+- Confirmed **DNS Manager** presence and functionality
+- Checked **Server Manager** for AD DS status
+- Reviewed **Event Viewer** logs for errors or warnings
+
+All core services were confirmed to be running normally.
+
+---
+
+## Results and Observations
+The deployment successfully resulted in:
+- A functioning Active Directory forest
+- A stable Domain Controller
+- Integrated DNS services
+- A ready environment for user, group, and policy management
+
+Performance was stable, and no critical errors were observed during validation.
+
+---
+
