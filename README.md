@@ -22,7 +22,7 @@ This repository documents a 10-part project focused on deploying and managing a 
 1. [Part 1 – Infrastructure & Windows Server Deployment](docs/part-1-infrastructure-and-windows-server-deployment.md)
 2. [Part 2 – Active Directory Domain Services Deployment](docs/part-2-active-directory.md)
 3. [Part 3 – Configuring and Adding Users](docs/part-3-configuring-and-Adding-Users.md)
-4. [Part 4 – Group Policies](docs/part-4-group-policies-password-lockout.md)
+4. [Part 4 – Group Policies](docs/part-4-group-policy-password-and-lockout.md)
 
 
   
