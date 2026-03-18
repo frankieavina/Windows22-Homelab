@@ -25,7 +25,7 @@ This repository documents a 10-part project focused on deploying and managing a 
 4. [Part 4 – Group Policies](docs/part-4-group-policy-password-and-lockout.md)
 5. [Part 5 – Patch Management and Reporting](docs/part-5-patch-mngmt-reporting.md)
 6. [Part 6 – Network Shares and Security Groups](docs/part-6-shared-files-security-groups.md)
-7. [Part 7 – Enterprise Active Directory](docs/part-7-Enterprise-AD.md)
+7. [Part 7 – Enterprise Active Directory with OUs](docs/part-7-Enterprise-AD.md)
 8. [Part 8 – Help Desk Ticketing Examples Using Jira](docs/part-8-Help-Desk-Tickets.md)
 
 
